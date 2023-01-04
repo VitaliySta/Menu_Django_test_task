@@ -1,0 +1,146 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$Y1oIy4OYdGmDCUi8PZKvsP$wrDTKbiYkRl9ZDovz7VxAZLNKW+C/z9wWKjdE/blvJE=",
+    "last_login": "2023-01-04T06:50:09.122Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-01-03T16:42:26.438Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 1,
+  "fields": {
+    "name": "Производители мороженого",
+    "parent": null,
+    "url": "proizvoditeli-morozhenogo"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 2,
+  "fields": {
+    "name": "ГК «Ренна»",
+    "parent": 1,
+    "url": "gk-renna"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 3,
+  "fields": {
+    "name": "Регион",
+    "parent": 2,
+    "url": "region0"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 4,
+  "fields": {
+    "name": "Краснодарский край",
+    "parent": 3,
+    "url": "krasnodarskij-kraj"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 5,
+  "fields": {
+    "name": "Бренды",
+    "parent": 2,
+    "url": "brendy0"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 6,
+  "fields": {
+    "name": "Коровка из Кореновки",
+    "parent": 5,
+    "url": "korovka-iz-korenovki"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 7,
+  "fields": {
+    "name": "Облака из Молока",
+    "parent": 5,
+    "url": "oblaka-iz-moloka"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 8,
+  "fields": {
+    "name": "Unilever",
+    "parent": 1,
+    "url": "unilever"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 9,
+  "fields": {
+    "name": "Регион",
+    "parent": 8,
+    "url": "region1"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 10,
+  "fields": {
+    "name": "Москва",
+    "parent": 9,
+    "url": "moskva"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 11,
+  "fields": {
+    "name": "Бренды",
+    "parent": 8,
+    "url": "brendy1"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 12,
+  "fields": {
+    "name": "Магнат",
+    "parent": 11,
+    "url": "magnat"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 13,
+  "fields": {
+    "name": "Экzо",
+    "parent": 11,
+    "url": "ekzo"
+  }
+},
+{
+  "model": "menu.menu",
+  "pk": 14,
+  "fields": {
+    "name": "Cornetto",
+    "parent": 11,
+    "url": "cornetto"
+  }
+}
+]
